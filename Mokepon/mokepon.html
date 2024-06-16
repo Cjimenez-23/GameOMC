@@ -11,38 +11,43 @@
 <body>
     <H1>MOKEPON! 🔥💧🌱</H1>
 
-    <section id="seleccionar-mascota"></section>
-    <h2>Elige a tu mascota:</h2>
+    <section id="seleccionar-mascota">
+        <h2>Elige a tu mascota:</h2>
 
-    <label for="Hipodoge">Hipodoge</label>
-    <input type="radio" name="mascota" id="Hipodoge" />
+        <label for="Hipodoge">Hipodoge</label>
+        <input type="radio" name="mascota" id="Hipodoge" />
 
-    <label for="Capipepo">Capipepo</label>
-    <input type="radio" name="mascota" id="Capipepo" />
+        <label for="Capipepo">Capipepo</label>
+        <input type="radio" name="mascota" id="Capipepo" />
 
-    <label for="Ratigueya">Ratigueya</label>
-    <input type="radio" name="mascota" id="Ratigueya" />
+        <label for="Ratigueya">Ratigueya</label>
+        <input type="radio" name="mascota" id="Ratigueya" />
 
-    <p><button id="btn.mascota">Seleccionar</button></p>
+        <p><button id="btn.mascota">Seleccionar</button></p>
 
+        <p>Tu mascota, <span id="mascota_jugador"></span> tiene <span id="vidas_Jugador">3</span> vidas</p>
+        <p>La mascota del enemigo, <span id="mascota_enemigo"></span> tiene <span id="vidas_Enemigo">3</span> vidas</p>
+    </section>
 
     <section id="seleccionar-ataque">
         <h2>Elige a tu ataque:</h2>
-        <p>Tu mascota, <span id="mascota_jugador"></span> tiene <span>3</span> vidas</p>
-        <p>La mascota del enemigo, <span id="mascota_enemigo"></span> tiene <span>3</span> vidas</p>
         <p>
             <button id="btn.fuego">FUEGO 🔥</button>
             <button id="btn.agua">AGUA 💧</button>
             <button id="btn.tierra">TIERRA 🌱</button>
+            <button id="pelear">¡ATACA!</button>
         </p>
     </section>
 
     <section id="mensajes">
-        <p>Tu mascota atacó con <span id="span.ataque"></span>, la mascota del enemigo atacó con <span
-                id="ataque_Enemigo"></span>. -GANASTE! 🎉
-        </p>
+        <span id="span.ataque">
+            </p></span>
+        <h2>
+            <span id="resultado"></span>
+        </h2>
     </section>
-    3
+
+
     <section id="reiniciar">
         <button>Reiniciar</button>
     </section>
