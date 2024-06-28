@@ -9,10 +9,9 @@
 </head>
 
 <body>
-    <H1>MOKEPON! 🔥💧🌱</H1>
 
-    <section id="seleccionar-mascota"></section>
-    <h2>Elige a tu mascota:</h2>
+    <section id="seleccionar-mascota">
+        <H1 class="titulo">¡¡BIENVENIDO A MOKEPON!! 🔥💧🌱</H1>
 
     <label for="Hipodoge">Hipodoge</label>
     <input type="radio" name="mascota" id="Hipodoge"/>
@@ -25,6 +24,17 @@
     
     <p><button id="btn.mascota">Seleccionar</button></p>
 
+        <label class="tarjeta-de-mokepon" for="Capipepo">Capipepo</label>
+        <input type="radio" name="mascota" id="Capipepo" />
+
+        <label class="tarjeta-de-mokepon" for="Ratigueya">Ratigueya</label>
+        <input type="radio" name="mascota" id="Ratigueya" />
+
+        <p><button id="btn.mascota">Seleccionar</button></p>
+
+
+        </p>
+    </section>
 
     <section id="seleccionar-ataque">
         <h2>Elige a tu ataque:</h2>
@@ -38,7 +48,11 @@
     </section>
 
     <section id="mensajes">
-        <p>Tu mascota atacó con FUEGO, la mascota del enemigo atacó con TIERRA. -GANASTE! 🎉</p>
+        <span id="span.ataque">
+            </p></span>
+        <h2>
+            <span id="resultado"></span>
+        </h2>
     </section>
 3
     <section id="reiniciar">

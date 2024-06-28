@@ -1,0 +1,32 @@
+.titulo {
+    color: darkgreen;
+    width: 573px;
+    height: 50px;
+    background-color: #FFE876;
+}
+
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjeta-de-mokepon {
+    width: 170px;
+    height: 80px;
+    background-color: #36311c;
+    color: #3E800D;
+    font-family: system-ui;
+    font-size: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 10px solid;
+
+}
+
+input {
+    display: none
+}
+
+#btn.mascota {}
