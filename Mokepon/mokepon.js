@@ -129,7 +129,7 @@ function inciar_juego() {
     seccion_reiniciar.style.display = "none";
     let seccion_seleccionar_ataque = document.getElementById("seleccionar-ataque")
     seccion_seleccionar_ataque.style.display = "none";
-    let btn_mascota_jugador = document.getElementById("btn.mascota")
+    let btn_mascota_jugador = document.getElementById("btn-mascota")
     btn_mascota_jugador.addEventListener("click", seleccionar_mascota_jugador)
     let btn_fuego = document.getElementById("btn.fuego")
     btn_fuego.addEventListener("click", ataqueFuego)
@@ -156,6 +156,7 @@ function inciar_juego() {
     h2_ataque.innerHTML = usuario + ", elige tu ataque:"
     seccion_seleccionar.appendChild(h2_ataque)
 }
+
 function mensajito() {
     let seccion_seleccionar_mascota = document.getElementById("h2")
     let p = document.createElement("p")
@@ -165,11 +166,13 @@ function mensajito() {
 
 
 function seleccionar_mascota_jugador() {
+
     let seccion_seleccionar_mascota = document.getElementById("seleccionar-mascota")
     seccion_seleccionar_mascota.style.display = "none";
 
     let seccion_seleccionar_ataque = document.getElementById("seleccionar-ataque")
     seccion_seleccionar_ataque.style.display = "block";
+
 
     let numero = 0;
     let inputHipodoge = document.getElementById("Hipodoge")
@@ -197,9 +200,9 @@ function seleccionar_mascota_jugador() {
     else {
         alert("Porfa, seleccioná a un animal")
     }
-
     seleccionar_mascota_enemigo(numero)
 }
+
 
 function seleccionar_mascota_enemigo(valor) {
     let mascotaAleatorio;

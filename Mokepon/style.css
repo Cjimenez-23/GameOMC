@@ -17,6 +17,10 @@ body {
     padding: 50px;
 }
 
+#pista {
+    text-align: center;
+}
+
 #seleccionar-mascota {
     display: flex;
     flex-direction: column;
@@ -36,22 +40,36 @@ body {
     border: 10px solid;
     text-align: center;
 
+
+}
+
+#pinguino {
+    position: relative;
+    bottom: 50px;
+}
+
+#falco {
+    position: relative;
+    right: 200px;
+}
+
+#axel {
+    position: relative;
+    bottom: 100px;
+    left: 200px;
 }
 
 input {
     display: none
 }
 
-#btn.mascota {
-    width: 190px;
-    height: 53px;
-    background-color: #36311c;
-    color: #3E800D;
-    font-family: system-ui;
-    font-size: 22px;
-    padding: 0px;
-    box-sizing: border-box;
-    margin: 10px;
-    border: 10px solid;
-    text-align: center;
+#btn-mascota {
+    color: yellow;
+    width: 170px;
+    height: 60px;
+    background-color: #A55914;
+    padding: 8px;
+    border: 10px;
+    border-radius: 12px;
+    border: solid 5px;
 }
